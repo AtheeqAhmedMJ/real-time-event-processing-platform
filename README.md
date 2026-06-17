@@ -1,4 +1,4 @@
-# ⚡ EventStream — Real-Time Event Processing Platform
+# EventStream — Real-Time Event Processing Platform
 
 A production-style MERN stack application demonstrating distributed event processing, Kafka pub/sub, Redis caching, and WebSocket live dashboards.
 
