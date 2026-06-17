@@ -1,0 +1,21 @@
+# Backend
+backend/target/
+backend/build/
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+
+# IDE
+.idea/
+.vscode/
+
+# Env
+.env
+.env.*
+
+# Logs
+*.log
+
+# OS
+.DS_Store
