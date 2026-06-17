@@ -130,18 +130,6 @@ Every event is immutable once written to MongoDB. Events have a TTL (7 days) and
 ### Real-Time Delivery
 Socket.io broadcasts over WebSocket with polling fallback. Stats are pushed on every processed event, keeping the dashboard live without polling.
 
-## Resume Points
-
-> **Real-Time Event Processing Platform | Node.js, Kafka, Redis, WebSockets, MongoDB**
->
-> - Built a distributed event-processing platform capable of ingesting and processing high-volume events in real time using a MERN stack with KafkaJS.
-> - Implemented Kafka-based publish-subscribe architecture supporting asynchronous, decoupled communication across services with `202 Accepted` ingest pattern.
-> - Developed Socket.io-powered live dashboards delivering real-time event feeds, throughput metrics, and alert notifications to connected clients.
-> - Integrated Redis-backed sliding-window rate counters and ring-buffer caching to reduce MongoDB read pressure and improve dashboard responsiveness.
-> - Designed an alert engine evaluating configurable threshold conditions per event type and window, broadcasting trigger notifications via WebSocket.
-
-## Project Structure
-
 ```
 event-platform/
 ├── backend/
